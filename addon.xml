@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.video.nicktv-israel"
+version="2.3.1"
+name="Nickelodeon Israel"
+provider-name="sl4v">
+<requires>
+  <import addon="xbmc.python" version="2.25.0"/>
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Watch Children's Shows from nick.co.il.</summary>
+  <description lang="en_GB">Watch Children's Shows from nick.co.il.</description>
+  <disclaimer lang="en_GB">Free videos provided by nickelodeon israel (nick.co.il).</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart></fanart>
+    <screenshot></screenshot>  
+  </assets>
+  <news>Updated with latest artwork metadata</news>
+</extension>
+</addon>
