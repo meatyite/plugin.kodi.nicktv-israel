@@ -6,8 +6,6 @@ import xbmcplugin
 import requests
 import json
 
-
-
 _url = sys.argv[0]
 _handle = int(sys.argv[1])
 
