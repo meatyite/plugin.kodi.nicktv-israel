@@ -3,6 +3,7 @@
 import requests
 import json
 from pprint import pprint
+
 VIDEOS = {}
 
 session = requests.Session()
