@@ -5,6 +5,8 @@ name="Nickelodeon Israel"
 provider-name="sl4v">
 <requires>
   <import addon="xbmc.python" version="2.25.0"/>
+      <import addon="xbmc.python" version="2.25.0"/>
+	  <import addon="script.module.requests"/>
 </requires>
 <extension point="xbmc.python.pluginsource" library="main.py">
   <provides>video</provides>
